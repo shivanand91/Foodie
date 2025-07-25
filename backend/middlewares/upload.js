@@ -1,6 +1,5 @@
 import multer from 'multer';
 
-
 const storage = multer.diskStorage({
   destination: "backend/uploads", // The folder where images will be stored
   filename: (req, file, cb) => {
